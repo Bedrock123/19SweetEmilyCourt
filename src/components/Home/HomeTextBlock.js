@@ -9,7 +9,7 @@ class HomeTextBlock extends Component {
         <p className="title">{this.props.title}</p>
         <p className="description">{this.props.description}</p>
         {this.props.link ? (
-          <Link to={this.props.link.url}>
+          <a href={this.props.link.url} target="_blank">
             <div className="link-button-container">
               <div className="link-button">
                 <div className="text-content">
@@ -21,7 +21,7 @@ class HomeTextBlock extends Component {
                 </div>
               </div>
             </div>
-          </Link>
+          </a>
         ) : null}
       </div>
     );

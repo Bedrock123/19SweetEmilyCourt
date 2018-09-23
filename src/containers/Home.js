@@ -23,7 +23,8 @@ class Home extends Component {
             link={{
               cta: "LEARN MORE",
               linkName: "SEE THE MLS LISTING",
-              url: "/"
+              url:
+                "http://v3.torontomls.net/Live/Pages/Public/Link.aspx?Key=849b156ee0f1456caa6d2294deb0869f&App=TREB"
             }}
           />
 

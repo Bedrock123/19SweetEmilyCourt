@@ -22,22 +22,6 @@ class HomeProjects extends Component {
           displayLink={"PORTFOLIO"}
           link={"/"}
         />
-        <Row gutter={16}>
-          <HomeSubProject
-            image={Outdoor_Seating_Image}
-            mainCTA={"For all your renovation projects"}
-            subCTA={"BLOG"}
-            displayLink={"OUR JOURNAL"}
-            link={"/"}
-          />
-          <HomeSubProject
-            image={Planning_Image}
-            mainCTA={"A FAMILY BUISNESS SINCE 2005"}
-            subCTA={"WHO WE ARE"}
-            displayLink={"BUISNESS PROFILE"}
-            link={"/about-mrc"}
-          />
-        </Row>
       </div>
     );
   }

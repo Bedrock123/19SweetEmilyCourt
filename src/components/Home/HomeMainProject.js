@@ -6,21 +6,12 @@ class HomeMainProject extends Component {
     return (
       <div
         className="latest-projects-block"
-        style={{ backgroundImage: "url(" + this.props.image + ")" }}
+
       >
-        <div className="button-container-outer">
-          <div className="button-container-inner">
-            <div className="button-left">
-              <Link to={this.props.link}>{this.props.mainCTA}</Link>
-            </div>
-            <div className="button-right">
-              <Link to="/">
-                <p className="cta">{this.props.subCTA}</p>
-                <p className="link">{this.props.displayLink}</p>
-              </Link>
-            </div>
-          </div>
-        </div>
+       <iframe src="https://www.360homephoto.com/new_gallery/s88102/pano/tour.html"  style={{
+         width: "100%",
+         height: "100%",
+       }}/>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
-import Logo from "../../assets/images/Common/logo_small.svg";
-import NBC from "../../assets/images/Social/nbc.svg";
+import Logo from "../../assets/images/Common/logo.svg";
+
 
 class Footer extends Component {
   // Global Bottom Footer
@@ -21,92 +21,47 @@ class Footer extends Component {
           <Row gutter={16}>
             <Col xs={{ span: 24 }} sm={{ span: 8 }}>
               <div className="footer-block">
-                <b className="footer-title">CALL TO START THE PROCESS</b>
+                <b className="footer-title">Maria Rodin</b>
                 <div className="footer-inner-block">
                   <p>
-                    Our office manager, Lisa, will be happy to talk to you about
-                    your next project and getting started with the MRC team.
+                  Sales Representative  <br/>
+                  <a href="tel:416-903-1354"> 416.903.1354</a> <br/>
+                  <a href="mailto:mariarodin@royallepage.ca">irinasavtchenko@royallepage.ca</a>  
                   </p>
                 </div>
               </div>
             </Col>
             <Col xs={{ span: 24 }} sm={{ span: 8 }}>
               <div className="footer-block">
-                <b className="footer-title">AREAS SERVED</b>
+                <b className="footer-title">Irina Savtchenko</b>
                 <div className="footer-inner-block">
                   <p>
-                    Westfield, Scotch Plains, Fanwood Cranford, Millburn, Short
-                    Hills, and Mountainside.
+                  Sales Representative <br/>
+                  <a href="tel:416-903-1354"> 416.903.1354</a> <br/>
+                 <a href="mailto:mariarodin@royallepage.ca">mariarodin@royallepage.ca</a>  
                   </p>
                 </div>
               </div>
             </Col>
             <Col xs={{ span: 24 }} sm={{ span: 8 }}>
               <div className="footer-block">
-                <b className="footer-title">FOLLOW US ON SOCIAL MEDIA & NBC</b>
-                <div className="footer-inner-block inner-block-tight">
-                  <Row>
-                    <Col xs={{ span: 6 }} sm={{ span: 12 }} lg={{ span: 6 }}>
-                      <a
-                        href="https://www.nbc.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          src={NBC}
-                          alt="NBC"
-                          className="social-media-icon"
-                        />
-                      </a>
-                    </Col>
-                    <Col xs={{ span: 6 }} sm={{ span: 12 }} lg={{ span: 6 }}>
-                      <a
-                        href="https://www.nbc.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          src={NBC}
-                          alt="NBC"
-                          className="social-media-icon"
-                        />
-                      </a>
-                    </Col>
-                    <Col xs={{ span: 6 }} sm={{ span: 12 }} lg={{ span: 6 }}>
-                      <a
-                        href="https://www.nbc.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          src={NBC}
-                          alt="NBC"
-                          className="social-media-icon"
-                        />
-                      </a>
-                    </Col>
-                    <Col xs={{ span: 6 }} sm={{ span: 12 }} lg={{ span: 6 }}>
-                      <a
-                        href="https://www.nbc.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          src={NBC}
-                          alt="NBC"
-                          className="social-media-icon"
-                        />
-                      </a>
-                    </Col>
-                  </Row>
+                <b className="footer-title">Royal LePage Terrequity Realty Brokerage</b>
+                <div className="footer-inner-block">
+                  <p>
+                  1-10 ROYAL ORCHARD BLVD THORNHILL, ON L3T 3C3  
+                  </p>
                 </div>
               </div>
             </Col>
+           
+            
+
+
             <Col xs={{ span: 24 }}>
               <div className="footer-row">
-                <p className="address">400 WEST BROAD STREET, WESTFIELD, NJ</p>
-                <a className="phone-number" href="tel:1-908-232-0134">
-                  908 232 0134
+                <p className="address">19 Sweet Emily Crt., Maple</p>
+                <a className="phone-number">
+                Luxurious 4 Bedroom Family Home!
                 </a>
               </div>
             </Col>

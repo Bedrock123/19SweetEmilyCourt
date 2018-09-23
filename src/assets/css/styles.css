@@ -181,6 +181,15 @@
   text-transform: uppercase;
 }
 
+.gallery-wrapper .headline-wrapper .headline h2 {
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  line-height: 58px;
+  font-family: 'cooper_hewittbook';
+  text-transform: uppercase;
+}
+
 .gallery-wrapper .gallery-image-open {
   position: absolute;
   width: 100%;
@@ -210,7 +219,7 @@
 .home-text-block-wrapper .title {
   color: #333;
   font-family: "unica_oneregular";
-  font-size: 16px;
+  font-size: 19px;
   line-height: 24px;
   margin-bottom: 20px;
 }
@@ -218,15 +227,15 @@
 .home-text-block-wrapper .description {
   color: #A3A199;
   font-family: "cooper_hewittbook";
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 19px;
+  line-height: 30px;
   margin-bottom: 28px;
 }
 
 .home-text-block-wrapper .link-button-container {}
 
 .home-text-block-wrapper .link-button-container .link-button {
-  max-width: 224px;
+  max-width: 294px;
   border: 3px solid #DDDDDD;
   width: 100%;
   cursor: pointer !important;
@@ -277,7 +286,7 @@
 }
 
 .home-projects-block-wrapper .latest-projects-block {
-  height: 1200px;
+  height: 600px;
   width: 100%;
   background-size: cover;
   background-position: bottom;
@@ -563,7 +572,7 @@
 
 .footer-wrapper .footer-inner-wrapper .footer-block .footer-title {
   font-family: "cooper_hewittmedium";
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0px;
 }
 
@@ -584,6 +593,11 @@
 }
 
 .footer-wrapper .footer-inner-wrapper .footer-block .footer-inner-block p {
+  color: #A3A199 !important;
+  font-family: "Cooper Hewitt";
+}
+
+.footer-wrapper .footer-inner-wrapper .footer-block .footer-inner-block p a {
   color: #A3A199 !important;
   font-family: "Cooper Hewitt";
 }
@@ -794,9 +808,8 @@
 }
 
 /* ----- ABOUT PAGE ----- */
-.about-wrapper {}
 
-.about-wrapper .hero-image {
+.hero-image {
   min-height: 899px;
   height: auto;
   background-position-x: center;
@@ -804,7 +817,7 @@
   box-shadow: inset 0 0 0 1000px rgba(46, 46, 46, 0.77)
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper {
+.hero-image .hero-image-inner-wrapper {
   max-width: 1400px;
   width: 100%;
   height: 100%;
@@ -812,19 +825,19 @@
   position: relative;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .hero-title-wrapper {
+.hero-image .hero-image-inner-wrapper .hero-title-wrapper {
   margin-left: 110px;
   padding-top: 50px;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .hero-title-wrapper h2 {
+.hero-image .hero-image-inner-wrapper .hero-title-wrapper h2 {
   color: white;
   font-family: "unica_oneregular";
   margin-bottom: 0px;
   font-size: 25px;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .hero-title-wrapper h1 {
+.hero-image .hero-image-inner-wrapper .hero-title-wrapper h1 {
   margin-bottom: 0px;
   color: white;
   font-family: "butlerlight";
@@ -834,7 +847,7 @@
   font-weight: 300;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box {
   min-height: 532px;
   margin: auto;
   max-width: 793px;
@@ -842,30 +855,30 @@
   border: 4px solid #DDDDDD;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title {
   padding: 20px 45px;
   border-bottom: 4px solid #dddd;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title .title {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title .title {
   margin: 0px;
   font-family: "unica_oneregular";
   font-size: 18px;
   color: #fff;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title .sub-title {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box .content-title .sub-title {
   margin: 0px;
   font-family: "butlerlight";
   font-size: 25px;
   color: #fff;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box .content-description {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box .content-description {
   padding: 30px;
 }
 
-.about-wrapper .hero-image .hero-image-inner-wrapper .content-wrapper-box .content-description p {
+.hero-image .hero-image-inner-wrapper .content-wrapper-box .content-description p {
   margin: 0px;
   font-family: "cooper_hewittbook";
   font-size: 16px;
@@ -874,32 +887,32 @@
   color: #fff;
 }
 
-.about-wrapper .experts-container {
+.experts-container {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 60px;
   margin-top: 45px;
 }
 
-.about-wrapper .experts-container .title-wrapper {
+.experts-container .title-wrapper {
   margin-bottom: 29px;
 }
 
-.about-wrapper .experts-container .title-wrapper .sub-title {
+.experts-container .title-wrapper .sub-title {
   margin: 0px;
   font-family: "unica_oneregular";
   font-size: 18px;
   color: #222
 }
 
-.about-wrapper .experts-container .title-wrapper .title {
+.experts-container .title-wrapper .title {
   margin: 0px;
   font-family: "butlerlight";
   font-size: 25px;
   margin-bottom: 15px;
 }
 
-.about-wrapper .experts-container .title-wrapper .description {
+.experts-container .title-wrapper .description {
   margin: 0px;
   color: #A3A199;
   font-family: "cooper_hewittbook";
@@ -908,7 +921,7 @@
   line-height: 28px;
 }
 
-.about-wrapper .experts-container .expert-photo {
+.experts-container .expert-photo {
   width: 100%;
   height: 286px;
   cursor: pointer;
@@ -919,7 +932,7 @@
 }
 
 
-.about-wrapper .experts-container .expert-photo .button-container-outer {
+.experts-container .expert-photo .button-container-outer {
   max-width: 240px;
   min-height: 90px;
   background: white;
@@ -934,14 +947,14 @@
   margin: auto;
 }
 
-.about-wrapper .experts-container .expert-photo .button-container-outer .button-container-inner {
+.experts-container .expert-photo .button-container-outer .button-container-inner {
   border: 4px solid #DDDDDD;
   min-height: 70px;
 }
 
-.about-wrapper .experts-container .expert-photo .button-container-outer .button-container-inner .button-top {}
+.experts-container .expert-photo .button-container-outer .button-container-inner .button-top {}
 
-.about-wrapper .experts-container .expert-photo .button-container-outer .button-container-inner .button-top p {
+.experts-container .expert-photo .button-container-outer .button-container-inner .button-top p {
   color: #000000;
   font-family: "unica_oneregular";
   font-size: 14px;
@@ -952,7 +965,7 @@
   padding: 10px 10px 10px 13px;
 }
 
-.about-wrapper .experts-container .expert-photo .button-container-outer .button-container-inner .button-bottom .cta {
+.experts-container .expert-photo .button-container-outer .button-container-inner .button-bottom .cta {
   margin: 0px;
   color: #000000;
   font-family: "unica_oneregular";
@@ -962,7 +975,7 @@
   margin-bottom: 0px;
 }
 
-.about-wrapper .experts-container .expert-photo .button-container-outer .button-container-inner .button-bottom .link {
+.experts-container .expert-photo .button-container-outer .button-container-inner .button-bottom .link {
   margin: 0px;
   color: #000000;
   font-family: "butlerlight";
@@ -973,7 +986,7 @@
   padding: 5px 0px 6px 22px;
 }
 
-.about-wrapper .maintainence-section {
+.maintainence-section {
   max-width: 1200px;
   border-top: 2px solid #DDDDDD;
   border-bottom: 2px solid #DDDDDD;
@@ -984,26 +997,26 @@
 
 }
 
-.about-wrapper .maintainence-section .interior-shot {
+.maintainence-section .interior-shot {
   width: 100%;
 
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper {}
+.maintainence-section .text-content-wrapper {}
 
-.about-wrapper .maintainence-section .text-content-wrapper .top-block {
+.maintainence-section .text-content-wrapper .top-block {
   padding: 0px 110px;
 
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .top-block .sub-title {
+.maintainence-section .text-content-wrapper .top-block .sub-title {
   font-family: "unica_oneregular";
   font-size: 17px;
   margin-bottom: 10px;
   line-height: 16px;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .top-block .title {
+.maintainence-section .text-content-wrapper .top-block .title {
   color: #000000;
   font-family: "butlerlight";
   font-size: 26px;
@@ -1012,7 +1025,7 @@
   margin-bottom: 15px;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .top-block .content {
+.maintainence-section .text-content-wrapper .top-block .content {
   font-family: "cooper_hewittbook";
   color: #A3A199;
   font-size: 16px;
@@ -1020,16 +1033,16 @@
   line-height: 28px;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block {
+.maintainence-section .text-content-wrapper .quote-block {
   padding: 26px 62px;
   border: 2px solid #DDDDDD;
   margin: 0px 59px;
   position: relative;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block-inner {}
+.maintainence-section .text-content-wrapper .quote-block-inner {}
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block-inner .quote {
+.maintainence-section .text-content-wrapper .quote-block-inner .quote {
   color: #A3A199;
   font-family: Butler;
   font-size: 27px;
@@ -1039,7 +1052,7 @@
   margin-bottom: 20px;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block-inner .speaker {
+.maintainence-section .text-content-wrapper .quote-block-inner .speaker {
   color: #000000;
   font-family: "unica_oneregular";
   font-size: 16px;
@@ -1048,7 +1061,7 @@
   text-align: right;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block .quote-icon {
+.maintainence-section .text-content-wrapper .quote-block .quote-icon {
   height: 100px;
   width: 100px;
   background: white;
@@ -1056,42 +1069,42 @@
 
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block .start {
+.maintainence-section .text-content-wrapper .quote-block .start {
   position: absolute;
   top: -46px;
   left: -60px;
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block .end {
+.maintainence-section .text-content-wrapper .quote-block .end {
   position: absolute;
   bottom: -46px;
   right: -60px;
   transform: rotate(180deg);
 }
 
-.about-wrapper .maintainence-section .text-content-wrapper .quote-block .quote-icon img {
+.maintainence-section .text-content-wrapper .quote-block .quote-icon img {
   width: 100%;
 }
 
-.about-wrapper .our-team-section {
+.our-team-section {
   max-width: 1200px;
   margin: auto;
   padding-top: 54px;
   margin-bottom: 30px;
 }
 
-.about-wrapper .our-team-section .title-section {
+.our-team-section .title-section {
   padding: 0px 101px;
 }
 
-.about-wrapper .our-team-section .title-section .sub-title {
+.our-team-section .title-section .sub-title {
   font-family: "unica_oneregular";
   font-size: 17px;
   margin-bottom: 10px;
   line-height: 16px;
 }
 
-.about-wrapper .our-team-section .title-section .title {
+.our-team-section .title-section .title {
   color: #000000;
   font-family: "butlerlight";
   font-size: 26px;
@@ -1100,7 +1113,7 @@
   margin-bottom: 25px;
 }
 
-.about-wrapper .our-team-section .title-section b {
+.our-team-section .title-section b {
   font-family: "unica_oneregular";
   font-size: 17px;
   margin-bottom: 10px;
@@ -1108,12 +1121,12 @@
   letter-spacing: 6px;
 }
 
-.about-wrapper .our-team-section .text-section {
+.our-team-section .text-section {
   padding: 0px 101px;
 }
 
 
-.about-wrapper .our-team-section .text-section p {
+.our-team-section .text-section p {
   color: #A3A199;
   font-family: "cooper_hewittbook";
   font-size: 16px;
@@ -1121,7 +1134,7 @@
   line-height: 28px;
 }
 
-.about-wrapper .gallery-secion {
+.gallery-secion {
   max-width: 1200px;
   min-height: 748px;
   margin: auto;
@@ -1129,7 +1142,7 @@
   margin-bottom: 20px;
 }
 
-.about-wrapper .gallery-secion .gallery-image-open {
+.gallery-secion .gallery-image-open {
   position: absolute;
   width: 100%;
   background-size: cover !important;
@@ -1139,7 +1152,7 @@
   transition: opacity 1.5s ease;
 }
 
-.about-wrapper .gallery-secion .gallery-image-closed {
+.gallery-secion .gallery-image-closed {
   position: absolute;
   width: 100%;
   background-size: cover !important;
@@ -1150,7 +1163,7 @@
   transition: opacity 1.5s ease;
 }
 
-.about-wrapper .gallery-secion .scroll-arrow-left {
+.gallery-secion .scroll-arrow-left {
   position: absolute;
   width: 60px;
   left: 17px;
@@ -1162,7 +1175,7 @@
   cursor: pointer;
 }
 
-.about-wrapper .gallery-secion .scroll-arrow-right {
+.gallery-secion .scroll-arrow-right {
   position: absolute;
   width: 60px;
   right: 17px;

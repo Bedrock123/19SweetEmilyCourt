@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 // Gallery Images
-import House_Image from "../../assets/images/Home/Gallery/House.jpg";
-import Kitchen_Image from "../../assets/images/Home/Gallery/Kitchen.jpg";
-import Other_House_Image from "../../assets/images/Home/Gallery/Other_House.jpg";
-import Other_Kitchen_Image from "../../assets/images/Home/Gallery/Other_Kitchen.jpg";
-import Stairs_Image from "../../assets/images/Home/Gallery/Stairs.jpg";
+
+import s88102_1 from "../../assets/images/House/s88102-1.jpg";
+import s88102_2 from "../../assets/images/House/s88102-2.jpg";
+import s88102_3 from "../../assets/images/House/s88102-3.jpg";
+import s88102_4 from "../../assets/images/House/s88102-4.jpg";
+import s88102_5 from "../../assets/images/House/s88102-5.jpg";
 
 import { clearTimeout } from "timers";
 
@@ -16,27 +17,27 @@ class HeroGallery extends Component {
     this.state = {
       imageGallery: [
         {
-          src: House_Image,
+          src: s88102_1,
           id: "House_Image",
           active: true
         },
         {
-          src: Kitchen_Image,
+          src: s88102_2,
           id: "Kitchen_Image",
           active: false
         },
         {
-          src: Other_House_Image,
+          src: s88102_3,
           id: "Other_House_Image",
           active: false
         },
         {
-          src: Other_Kitchen_Image,
+          src: s88102_4,
           id: "Other_Kitchen_Image",
           active: false
         },
         {
-          src: Stairs_Image,
+          src: s88102_5,
           id: "Stairs_Image",
           active: false
         }
@@ -179,8 +180,8 @@ class HeroGallery extends Component {
         </div>
         <div className="headline-wrapper">
           <div className="headline">
-            <h1>A Whole House</h1>
-            <h1>Approach</h1>
+            <h1>19 Sweet Emily Court</h1>
+            <h2> Maple, ON L6A 0G6, Canada</h2>
           </div>
         </div>
         {this.renderGalleryImages()}

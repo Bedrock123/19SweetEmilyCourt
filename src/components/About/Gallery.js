@@ -4,23 +4,28 @@ import { clearTimeout } from "timers";
 import Scroll_Down_Arrow from "../../assets/images/Common/scroll_down_arrow.svg";
 
 // Gallery Images
-import Image_001 from "../../assets/images/About/Gallery/171127-EM_Workspace_001.jpg";
-import Image_002 from "../../assets/images/About/Gallery/171127-EM_Workspace_002.jpg";
-import Image_003 from "../../assets/images/About/Gallery/171127-EM_Workspace_003.jpg";
-import Image_004 from "../../assets/images/About/Gallery/171127-EM_Workspace_004.jpg";
-import Image_005 from "../../assets/images/About/Gallery/171127-EM_Workspace_005.jpg";
-import Image_007 from "../../assets/images/About/Gallery/171127-EM_Workspace_007.jpg";
-import Image_008 from "../../assets/images/About/Gallery/171127-EM_Workspace_008.jpg";
-import Image_009 from "../../assets/images/About/Gallery/171127-EM_Workspace_009.jpg";
-import Image_012 from "../../assets/images/About/Gallery/171127-EM_Workspace_012.jpg";
-import Image_013 from "../../assets/images/About/Gallery/171127-EM_Workspace_013.jpg";
-import Image_014 from "../../assets/images/About/Gallery/171127-EM_Workspace_014.jpg";
-import Image_015 from "../../assets/images/About/Gallery/171127-EM_Workspace_015.jpg";
-import Image_016 from "../../assets/images/About/Gallery/171127-EM_Workspace_016.jpg";
-import Image_017 from "../../assets/images/About/Gallery/171127-EM_Workspace_017.jpg";
-import Image_018 from "../../assets/images/About/Gallery/171127-EM_Workspace_018.jpg";
-import Image_019 from "../../assets/images/About/Gallery/171127-EM_Workspace_019.jpg";
-import Image_020 from "../../assets/images/About/Gallery/171127-EM_Workspace_020.jpg";
+
+import s88102_6  from  "../../assets/images/House/s88102-6.jpg"
+import s88102_7  from  "../../assets/images/House/s88102-7.jpg"
+import s88102_8  from  "../../assets/images/House/s88102-8.jpg"
+import s88102_9  from  "../../assets/images/House/s88102-9.jpg"
+import s88102_10 from  "../../assets/images/House/s88102-10.jpg"
+import s88102_11 from  "../../assets/images/House/s88102-11.jpg"
+import s88102_12 from  "../../assets/images/House/s88102-12.jpg"
+import s88102_13 from  "../../assets/images/House/s88102-13.jpg"
+import s88102_14 from  "../../assets/images/House/s88102-14.jpg"
+import s88102_15 from  "../../assets/images/House/s88102-15.jpg"
+import s88102_16 from  "../../assets/images/House/s88102-16.jpg"
+import s88102_17 from  "../../assets/images/House/s88102-17.jpg"
+import s88102_18 from  "../../assets/images/House/s88102-18.jpg"
+import s88102_19 from  "../../assets/images/House/s88102-19.jpg"
+import s88102_20 from  "../../assets/images/House/s88102-20.jpg"
+import s88102_21 from  "../../assets/images/House/s88102-21.jpg"
+import s88102_22 from  "../../assets/images/House/s88102-22.jpg"
+import s88102_23 from  "../../assets/images/House/s88102-23.jpg"
+import s88102_24 from  "../../assets/images/House/s88102-24.jpg"
+import s88102_25 from  "../../assets/images/House/s88102-25.jpg"
+
 
 var infiniteLoop;
 
@@ -31,73 +36,85 @@ class Gallery extends Component {
     this.state = {
       imageGallery: [
         {
-          image: Image_001,
+          image: s88102_6,
           active: true
         },
         {
-          image: Image_002,
+          image: s88102_7,
           active: false
         },
         {
-          image: Image_003,
+          image: s88102_8,
           active: false
         },
         {
-          image: Image_004,
+          image: s88102_9,
           active: false
         },
         {
-          image: Image_005,
+          image: s88102_10,
           active: false
         },
         {
-          image: Image_007,
+          image: s88102_11,
           active: false
         },
         {
-          image: Image_008,
+          image: s88102_12,
           active: false
         },
         {
-          image: Image_009,
+          image: s88102_13,
           active: false
         },
         {
-          image: Image_012,
+          image: s88102_14,
           active: false
         },
         {
-          image: Image_013,
+          image: s88102_15,
           active: false
         },
         {
-          image: Image_014,
+          image: s88102_16,
           active: false
         },
         {
-          image: Image_015,
+          image: s88102_17,
           active: false
         },
         {
-          image: Image_016,
+          image: s88102_18,
           active: false
         },
         {
-          image: Image_017,
+          image: s88102_19,
           active: false
         },
         {
-          image: Image_018,
+          image: s88102_20,
           active: false
         },
         {
-          image: Image_019,
+          image: s88102_21,
           active: false
         },
         {
-          image: Image_020,
+          image: s88102_22,
           active: false
-        }
+        },
+        {
+          image: s88102_23,
+          active: false
+        },
+        {
+          image: s88102_24,
+          active: false
+        },
+        {
+          image: s88102_25,
+          active: false
+        },
       ]
     };
     this.goToNextActiveImage = this.goToNextActiveImage.bind(this);

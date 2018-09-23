@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Fade from "react-fade-opacity";
 import { connect } from "react-redux";
 import { Row, Col } from "antd";
 // Peronsl Modals Images

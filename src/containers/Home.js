@@ -6,6 +6,7 @@ import DocumentTitle from "react-document-title";
 import Gallery from "../components/About/Gallery";
 import OurTeam from "../components/About/OurTeam";
 import Maintanence from "../components/About/Maintanence";
+import Tour from "../components/About/Tour";
 
 class Home extends Component {
   // Home Screen https://projects.invisionapp.com/d/main#/console/15461363/321299146/inspect
@@ -28,7 +29,7 @@ class Home extends Component {
 
           <Gallery />
           <OurTeam />
-          <Projects />
+          <Tour />
           <br />
           <Maintanence />
         </div>

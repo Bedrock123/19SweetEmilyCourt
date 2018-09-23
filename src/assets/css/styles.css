@@ -647,6 +647,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .gallery-secion {
+    max-width: 800px !important;
+
+  }
+
   .timer-wrapper {
     display: none;
   }
@@ -1241,4 +1246,13 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
+}
+
+
+/* GLOBAL MOBIL OVRIDES */
+@media only screen and (max-width: 768px) {
+  .gallery-secion {
+    max-width: 800px !important;
+
+  }
 }

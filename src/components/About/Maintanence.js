@@ -12,11 +12,20 @@ class Maintanence extends Component {
       <div className="maintainence-section">
         <Row gutter={16}>
           <Col xs={{ span: 24 }} md={{ span: 10 }} style={{ padding: "9px" }}>
-            <img
+            <div
               src={Interior_Shot}
               alt="Interior Of Office"
               className="interior-shot"
-            />
+            >
+              <iframe
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style={{ border: "0" }}
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYWbNW38pK4gRYXq9epqKM9A&key=AIzaSyDRrjKopO7-dhO-W1xDKiSyYGYBcbsWayU"
+                allowfullscreen
+              />
+            </div>
           </Col>
           <Col xs={{ span: 24 }} md={{ span: 14 }} style={{ padding: "9px" }}>
             <div className="text-content-wrapper">

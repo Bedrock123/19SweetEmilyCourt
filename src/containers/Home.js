@@ -29,6 +29,8 @@ class Home extends Component {
           <Gallery />
           <OurTeam />
           <Projects />
+          <br />
+          <Maintanence />
         </div>
       </DocumentTitle>
     );

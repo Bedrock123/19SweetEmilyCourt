@@ -88,6 +88,10 @@
   display: none;
 }
 
+.global-app-wrapper {
+  overflow-x: hidden !important;
+}
+
 /* ---------- HOMEPAGE ---------- */
 /* ----- HOME GALLERY ----- */
 .gallery-wrapper {
@@ -95,6 +99,7 @@
   height: 84vh;
   background: transparent;
   position: relative;
+  overflow-x: hidden !important;
 }
 
 .gallery-wrapper .headline-wrapper {
@@ -642,6 +647,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .timer-wrapper {
+    display: none;
+  }
+
   .footer-wrapper .footer-logo-row {
     text-align: center;
   }

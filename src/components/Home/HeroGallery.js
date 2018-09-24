@@ -22,11 +22,6 @@ class HeroGallery extends Component {
           active: true
         },
         {
-          src: s88102_2,
-          id: "Kitchen_Image",
-          active: false
-        },
-        {
           src: s88102_3,
           id: "Other_House_Image",
           active: false

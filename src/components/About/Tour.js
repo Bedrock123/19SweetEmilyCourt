@@ -18,7 +18,7 @@ class Tour extends Component {
           <Col xs={{ span: 24 }} md={{ span: 14 }} style={{ padding: "9px" }}>
             <div className="text-content-wrapper">
               <div className="top-block">
-                <p className="title">PLEASE JOIN US</p>
+                <p className="title">PLEASE JOIN US!</p>
                 <br />
                 <p className="sub-title">OUR OPEN HOUSE</p>
                 <p className="content">
@@ -28,7 +28,7 @@ class Tour extends Component {
                   private viewing at your convenience.
                 </p>
                 <br />
-                <p className="sub-title">LET'S CONNECT</p>
+                <p className="sub-title">Connect with our Real Estate Agents</p>
                 <Row gutter={16}>
                   <Col
                     xs={{ span: 24 }}
@@ -36,16 +36,17 @@ class Tour extends Component {
                     style={{ padding: "9px" }}
                   >
                     <img src={Maria} alt="Maria" style={{ width: "100%", paddingBottom: "10px" }} />
-   
+                <br />  <br />
+                    <p className="sub-title">Maria Rodin</p>
                     <p className="content">
-                    <br />
-                    OFFICE<br />
+    
+                    OFFICE: <br />
                     905.707.8001<br />
                     <br />
-                    MOBILE <br />
+                    MOBILE: <br />
                     416.903.1354<br />
                     <br />
-                    EMAIL<br />
+                    EMAI: L<br />
                     mariarodin@royallepage.ca
                     </p>
                   </Col>
@@ -55,17 +56,19 @@ class Tour extends Component {
                     style={{ padding: "9px" }}
                   >
                     <img src={Irene} alt="Irne" style={{ width: "100%", paddingBottom: "10px" }} />
-           
+                    <br />  <br />
+                    <p className="sub-title">IRINA SAVTCHENKO</p>
                     <p className="content">
-                    OFFICE <br />
+        
+                    OFFICE: <br />
                     905.707.8001<br />
                     
                     <br />
-                    MOBILE <br />
+                    MOBILE: <br />
                     416.903.1329<br />
                     <br />
                     
-                    EMAIL<br />
+                    EMAIL:<br />
                     irinasavtchenko@royallepage.ca
                     </p>
                   </Col>
@@ -73,15 +76,17 @@ class Tour extends Component {
                   <Col xs={{ span: 24 }}>
                   <br />
                   <p className="content">
-                  Spoken Languages <br />
-Russian / Russe, English / Anglais, Spanish / Espagnol
-<br />
-Areas Serviced <br />
-Maple, Markham, Newmarket, Toronto
-<br />
-Areas of Expertise
-Multi-Residential, Buyer Representation, Condominiums, Rentals, First Time Buyers, New Condominiums, New Home Sales
-</p>
+                  <b  className="sub-title"> Spoken Languages</b> <br />
+                Russian / Russe, English / Anglais, Spanish / Espagnol
+                <br />
+                <br />
+                <b  className="sub-title">Areas Serviced</b>  <br />
+                Maple, Markham, Newmarket, Toronto
+                <br />
+                <br />
+                <b className="sub-title">Areas of Expertise</b> <br />
+                Multi-Residential, Buyer Representation, Condominiums, Rentals, First Time Buyers, New Condominiums, New Home Sales
+                </p>
                   </Col>
                   
                 </Row>

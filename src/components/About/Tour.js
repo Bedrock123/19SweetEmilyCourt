@@ -18,9 +18,9 @@ class Tour extends Component {
           <Col xs={{ span: 24 }} md={{ span: 14 }} style={{ padding: "9px" }}>
             <div className="text-content-wrapper">
               <div className="top-block">
-                <p className="title">PLEASE JOIN US!</p>
+                <p className="title">PLEASE JOIN OUR OPEN HOUSE!</p>
                 <br />
-                <p className="sub-title">OUR OPEN HOUSE</p>
+                <p className="sub-title">EVERY SATURDAY AND SUNDAY</p>
                 <p className="content">
                   Please join us every Saturday and Sunday from 2 pm to 4 pm for
                   our Open House, or call or text Maria Rodin at +1 (416) - 903
@@ -35,18 +35,17 @@ class Tour extends Component {
                     md={{ span: 10 }}
                     style={{ padding: "9px" }}
                   >
-                    <img src={Maria} alt="Maria" style={{ width: "100%", paddingBottom: "10px" }} />
+                    <img src={Maria} alt="Maria" style={{ width: "100%", padding: "10px" }} />
                 <br />  <br />
                     <p className="sub-title">Maria Rodin</p>
                     <p className="content">
     
-                    OFFICE: <br />
-                    905.707.8001<br />
+          
                     <br />
                     MOBILE: <br />
                     416.903.1354<br />
                     <br />
-                    EMAI: L<br />
+                    EMAIL:<br />
                     mariarodin@royallepage.ca
                     </p>
                   </Col>
@@ -55,14 +54,12 @@ class Tour extends Component {
                     md={{ span: 10 }}
                     style={{ padding: "9px" }}
                   >
-                    <img src={Irene} alt="Irne" style={{ width: "100%", paddingBottom: "10px" }} />
+                    <img src={Irene} alt="Irne" style={{ width: "100%", padding: "10px" }} />
                     <br />  <br />
                     <p className="sub-title">IRINA SAVTCHENKO</p>
                     <p className="content">
         
-                    OFFICE: <br />
-                    905.707.8001<br />
-                    
+               
                     <br />
                     MOBILE: <br />
                     416.903.1329<br />

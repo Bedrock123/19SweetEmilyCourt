@@ -21,7 +21,7 @@ class LoadingAnimationWrapper extends Component {
       that.setState({
         loadingStatus: "loading-screen-closed "
       });
-    }, 3500);
+    }, 6500);
   }
   render() {
     return (

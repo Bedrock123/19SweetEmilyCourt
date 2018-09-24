@@ -41,7 +41,7 @@ class OurTeam extends Component {
           </Col>
           <Col xs={{ span: 24 }} md={{ span: 8 }} style={{ padding: "9px" }}>
             <p>
-              • 4 Bed <br />5 Bath <br />• 3500 - 5000 Sqft <br />• House
+              • 4 Bed <br />  •  5 Bath <br />• 3500 - 5000 Sqft <br />• House
               Listing ID: N4225354 <br />• Lot Size 59 ft x 117 ft 21780 ft{" "}
               <br />• Gross Taxes for 2017 $8,534 <br />• Area Patterson <br />•
               Sub-Area/Community Patterson <br />• Property Type House <br />•

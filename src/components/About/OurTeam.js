@@ -32,8 +32,8 @@ class OurTeam extends Component {
               Very Large Media Room <br />• Second Kitchen in the Basement{" "}
               <br /> • 5 P.C. Bath w/ Jacuzzi in • Basement <br />• Heated Floor{" "}
               <br />• Lots of Potlights w/LED <br />• Luxurious Custom Sauna{" "}
-              <br />• Forced Air Central Vacuum <br />8 Feet High Doors <br />•
-              Open Concept Living/Dining <br />3 Car Garage <br />• Stone/Brick
+              <br />• Forced Air Central Vacuum <br />• 8 Feet High Doors <br />•
+              Open Concept Living/Dining <br />• 3 Car Garage <br />• Stone/Brick
               Façade <br />• Cul De Sac <br />• Lots of Parks/Ponds in the Area{" "}
               <br />• Safe School District <br />• Close to all Amenities <br />
               • Too many Features to List!!! <br />

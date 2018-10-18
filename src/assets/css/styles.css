@@ -1258,3 +1258,44 @@
 
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  .gallery-wrapper {
+    height: 50vh;
+    min-height: 450px;
+  }
+  .gallery-wrapper .headline-wrapper .headline h1 {
+    font-size: 40px;
+  }
+  .gallery-wrapper .headline-wrapper .headline h2 {
+    font-size: 20px;
+  }
+  .home-text-block-wrapper .description {
+    font-size: 13px;
+  }
+  .home-text-block-wrapper .link-button-container .link-button .text-content .link-name {
+    font-size: 12px;
+  }
+  .gallery-secion {
+    min-height: 300px;
+  }
+  .gallery-secion .scroll-arrow-right {
+    max-width: 30px;
+  }
+  .our-team-section .title-section {
+    padding: 0px 20px;
+  }
+  .our-team-section .text-section {
+    padding: 0px 20px;
+  }
+  .maintainence-section .text-content-wrapper .top-block {
+    padding: 0px 20px;
+  }
+  .maintainence-section {
+    padding: 10px 0px 5px 0px;
+  }
+  .maintainence-section .interior-shot {
+    height: 400px;
+  }
+}

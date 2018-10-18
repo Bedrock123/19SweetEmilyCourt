@@ -18,7 +18,7 @@ class Home extends Component {
           <HomeTextBlock
             title="A DREAM HOME IN PERFECT AREA!"
             description={
-              "Luxury Mansion 4+3 Bdrms In Upper Thornhill Estates! Approx. 6000 Sq.Ft of Luxury Living Space! Situated on Child Safe Cul-De-Sac on Premium 60X117 Ft. Lot. Boasts 2 Story Foyer & Family Room, 10Ft. Ceilings Main, 9Ft On 2nd & Bsmt. Elegant circular staircase with wrought iron railings to the second floor with 3 bedrooms and spacious master bedroom retreat with 6-piece ensuite and double walk-in closets. LOADED WITH UPGRADES: Custom Kitchen W/Cervery & W/I Pantry, Hardwood Floors & Mouldings Throughout, Spa Like Marble Master Ensuite, Custom Fireplace In Family Room, Granite/Marble Countertops, Prof. Finished Bsmt W/Lrg Rec and Media Rooms, 3 Bdrms, Kitchen, 5 pc Washroom with Large Jacuzzi and Custom Sauna. EXCELLENT LOCATION! Steps to High Ranking Schools, Parks and Shopping! Close to Hwy 404/407 and two Go-Stations. DON’T MISS THE OPPORTUNITY!"
+              "Come visit this beautiful luxury mansion in the Upper Thornhill Estates! It contains 4 bedrooms and 3 bathrooms in an approximately 6000 sq.ft of luxury living space. This property is in a child safe cul-de-sac and is located close to highly rated schools, shopping centers, and much more. In addition, the mansion contains a sauna, customized kitchen, and many more upgrades listed below. Don’t miss the opportunity to make this beautiful luxury mansion yours! Call us for a private viewing. "
             }
             link={{
               cta: "LEARN MORE",

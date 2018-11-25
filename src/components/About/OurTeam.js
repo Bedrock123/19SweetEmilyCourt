@@ -14,7 +14,7 @@ class OurTeam extends Component {
         <Row gutter={16} className="text-section">
           <Col xs={{ span: 24 }} md={{ span: 8 }} style={{ padding: "9px" }}>
             <p>
-              • $2,198,000 <br /> • Gleaming Hardwood <br />• Designer Crystal
+              • $1,948,000 <br /> • Gleaming Hardwood <br />• Designer Crystal
               Chandeliers <br />• Beautiful Chef's Kitchen <br />• Granite
               Countertops <br />• Large Central Island <br />• Marble
               Backsplash/Kitchen <br />• Servery w/Walk-In Pantry Grand 2 Story
